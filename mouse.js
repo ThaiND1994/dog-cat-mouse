@@ -7,6 +7,4 @@ function Mouse(name,weight)
 Mouse.prototype.die = function() {
 	this.dead=true;
 };
-var mouse=new Mouse("Jerry",5);
-console.log(mouse);
 module.exports=Mouse;
